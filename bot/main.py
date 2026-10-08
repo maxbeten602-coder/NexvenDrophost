@@ -37,7 +37,7 @@ load_dotenv()
 logging.basicConfig(level=logging.INFO)
 log = logging.getLogger("nexven")
 
-BOT_TOKEN = os.getenv("BOT_TOKEN", "")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "8817454034:AAHsmKV4X8uCYjjMluIyTegWjPtCcDEREqQ")
 WEBAPP_URL = os.getenv("WEBAPP_URL", "https://example.com")
 _raw_admins = os.getenv("ADMIN_IDS", "8920532333,7064801154,8866989412,5198310704,8133917568")
 ADMIN_IDS = [int(x.strip()) for x in _raw_admins.split(",") if x.strip().isdigit()]
